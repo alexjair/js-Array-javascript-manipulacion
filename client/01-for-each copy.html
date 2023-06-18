@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <span>Curso de Arrays</span>
+    <br>
+    <br>
+    <div id="app"></div>
+    <script>
+        const products = [
+            {
+                title: 'hamburguesa',
+                price: 50
+            },
+            {
+                title: 'pitza',
+                price: 120
+            },
+            {
+                title: 'jugo',
+                price: 15
+            }
+        ]; 
+        const app = document.getElementById('app');
+        const htmlList = products.map( row => {
+            return `<li>${row.title}- ${row.price}</li>`;
+        });
+        app = htmlList.join('');
+    </script>
+</body>
+</html>
