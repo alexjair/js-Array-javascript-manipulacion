@@ -47,3 +47,4 @@ const products = [
 
   const resp4 = products.find(item => item.id === '🍕');
   console.log(resp4);
+//{ name: 'Pizza', price: 12, id: '🍕' }

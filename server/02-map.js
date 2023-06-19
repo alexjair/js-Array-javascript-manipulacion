@@ -13,3 +13,5 @@ console.log('arrayNumber',arrayNumber);
 console.log('arrayNew',arrayNew2);
 
 
+
+
